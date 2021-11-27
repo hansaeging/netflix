@@ -62,3 +62,20 @@
   font-size: 40px;
   font-weight: 600;
 }
+.movie-recommendation{
+  margin: 25px 0;
+  padding: 0 25px;
+}
+.movie-recommendation__images{
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+  overflow-x: scroll;
+}
+.movie-recommendation__images li{
+  margin-left: 5px;
+}
+.movie-recommendation__images img {
+  width: 150px;
+  border-radius: 15px;
+}
